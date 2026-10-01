@@ -1,0 +1,10 @@
+.env
+node_modules/
+remotion/build/
+remotion/public/
+__pycache__/
+*/assets/
+*/audio/
+*/render/
+*/out/
+!examples/*/story.json

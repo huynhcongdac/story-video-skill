@@ -1,0 +1,979 @@
+{
+ "title": "CĂN PHÒNG KHOÁ TRÁI",
+ "series": "HỒ SƠ THÁM TỬ MINH",
+ "episode": 1,
+ "aspectRatio": "9:16",
+ "visualStyle": "Cinematic semi-realistic digital painting, moody film-noir lighting, rich deep shadows, muted teal and amber palette, rain-soaked 1990s Vietnam atmosphere",
+ "characters": {
+  "minh": {
+   "name": "Thám tử Minh",
+   "appearance": "Vietnamese man aged 40. BODY: 7.5-head proportion, tall lean upright build. FACE: sharp jawline, intelligent narrow eyes, light stubble, thin straight eyebrows. HAIR: short neat black hair with a few grey strands at the temples. OUTFIT: long beige trench coat over a dark grey shirt, dark trousers, brown leather shoes.",
+   "tag": "the detective in the beige trench coat"
+  },
+  "lam": {
+   "name": "Ông Lâm",
+   "appearance": "Vietnamese man aged 68. BODY: 7-head proportion, thin frame with slightly hunched shoulders. FACE: stern face with deep wrinkles, round gold-rimmed glasses, thin pressed lips. HAIR: thin white hair combed straight back. OUTFIT: dark maroon wool cardigan over a white collared shirt, grey trousers, black leather slippers.",
+   "tag": "the old man in the maroon cardigan and round glasses"
+  },
+  "hanh": {
+   "name": "Hạnh",
+   "appearance": "Vietnamese woman aged 35. BODY: 7-head proportion, slim upright build. FACE: sharp elegant features, almond-shaped eyes, red lipstick. HAIR: glossy chin-length straight black bob. OUTFIT: fitted dark red wool coat over a black turtleneck, black trousers, small gold earrings.",
+   "tag": "the woman with a black bob in the dark red coat"
+  },
+  "quan": {
+   "name": "Quân",
+   "appearance": "Vietnamese man aged 28. BODY: 7-head proportion, slim build with slightly stooped posture. FACE: anxious expression, thin black-framed rectangular glasses, clean-shaven. HAIR: neat side-parted short black hair. OUTFIT: white long-sleeve shirt, dark navy vest, loosened dark tie, grey trousers, black shoes.",
+   "tag": "the young man in the navy vest and black glasses"
+  },
+  "sau": {
+   "name": "Bà Sáu",
+   "appearance": "Vietnamese woman aged 60. BODY: 6.5-head proportion, small slightly stooped build. FACE: gentle tired face, kind eyes with deep crow's feet. HAIR: grey hair tied in a low bun. OUTFIT: brown traditional ao ba ba blouse, loose black trousers, white cotton apron with one front pocket, wooden sandals.",
+   "tag": "the elderly housekeeper in the brown blouse and white apron"
+  }
+ },
+ "locations": {
+  "villa": {
+   "name": "Biệt thự nhà họ Lâm",
+   "description": "An old two-storey French colonial villa on a pine-covered hill in Da Lat, yellow stucco walls, dark green wooden shutters, wet stone steps, a wrought-iron gate, tall pine trees, rainy night"
+  },
+  "study": {
+   "name": "Thư phòng ông Lâm",
+   "description": "A wood-panelled study lined with shelves of antique clocks, a heavy mahogany desk with a green banker's lamp, one tall window with an iron latch, a single wooden door with an old brass lock"
+  },
+  "hall": {
+   "name": "Sảnh chính",
+   "description": "A grand villa entrance hall with a tall antique pendulum grandfather clock, a staircase with a carved dark-wood banister, black and white checkered tile floor, a dim crystal chandelier"
+  },
+  "kitchen": {
+   "name": "Gian bếp",
+   "description": "An old villa kitchen with a tall wooden glass-front cabinet full of white porcelain tea sets, a kettle on a gas stove, a wooden worktable, a small window streaked with rain"
+  },
+  "living": {
+   "name": "Phòng khách",
+   "description": "A villa living room with a stone fireplace, worn leather armchairs, a low wooden coffee table, heavy curtains, warm lamplight"
+  }
+ },
+ "props": {
+  "watch": {
+   "name": "Đồng hồ đeo tay ông Lâm",
+   "description": "A vintage gold men's wristwatch with a round white dial, cracked glass face and a brown leather strap"
+  },
+  "lotus": {
+   "name": "Bộ tách hoa sen",
+   "description": "A white porcelain teacup with a matching saucer, both hand-painted with blue lotus flowers and a thin gold rim"
+  },
+  "chrys": {
+   "name": "Đĩa hoa cúc",
+   "description": "A white porcelain saucer hand-painted with yellow chrysanthemum flowers and a thin gold rim"
+  },
+  "photo": {
+   "name": "Ảnh thờ con trai bà Sáu",
+   "description": "An old black-and-white portrait photograph of a smiling young Vietnamese man about 20 years old, in a simple dark wooden frame"
+  }
+ },
+ "keyframes": {
+  "k_villa": {
+   "loc": [
+    "villa"
+   ],
+   "p": "Wide establishing shot of the villa at night in heavy rain, a lightning bolt illuminating the yellow walls, only one upstairs window glowing, pine trees bending in the wind."
+  },
+  "k_clock": {
+   "loc": [
+    "hall"
+   ],
+   "p": "Low-angle close-up of the tall grandfather clock in the dark hall, both hands pointing straight up at twelve, the brass pendulum mid-swing, cold blue moonlight through rain-streaked glass."
+  },
+  "k_bodyrev": {
+   "chars": [
+    "lam"
+   ],
+   "loc": [
+    "study"
+   ],
+   "props": [
+    "lotus"
+   ],
+   "p": "Ông Lâm slumped forward over the mahogany desk, motionless, glasses askew, one arm hanging down, the green banker's lamp casting harsh light, a teacup on the desk, shot from the doorway."
+  },
+  "k_key": {
+   "loc": [
+    "study"
+   ],
+   "p": "Extreme close-up of an old brass key inserted in the lock on the INSIDE of the wooden study door, dramatic side light, dust in the air."
+  },
+  "k_window": {
+   "loc": [
+    "study"
+   ],
+   "p": "Close-up of the tall study window, the iron latch firmly closed from inside, rain running down the glass, lightning outside."
+  },
+  "k_lam": {
+   "chars": [
+    "lam"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Medium portrait of Ông Lâm standing among his antique clock shelves, cold proud expression, lamplight reflecting in his round glasses."
+  },
+  "k_dinner": {
+   "chars": [
+    "lam",
+    "hanh",
+    "quan",
+    "sau"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Wide shot of a long dinner table in the villa: Ông Lâm at the head of the table, Hạnh and Quân seated on either side, Bà Sáu standing behind holding a serving tray, candles and warm lamplight, rain on the window."
+  },
+  "k_announce": {
+   "chars": [
+    "lam"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Low-angle medium shot of Ông Lâm standing up at the head of the dinner table, raising one finger as he makes a serious announcement, candlelight from below, hard shadows."
+  },
+  "k_react": {
+   "chars": [
+    "hanh",
+    "quan"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Hạnh and Quân seated at the dinner table frozen in shock, Hạnh gripping her wine glass, Quân pushing up his glasses nervously, candlelight."
+  },
+  "k_hanh": {
+   "chars": [
+    "hanh"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Moody medium portrait of Hạnh sitting by the fireplace, arms crossed, guarded resentful look, firelight on one side of her face."
+  },
+  "k_hanhdebt": {
+   "chars": [
+    "hanh"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Hạnh alone at night holding a stack of papers and envelopes with blank unreadable pages, worried expression, a phone on the table, dim lamplight."
+  },
+  "k_quan": {
+   "chars": [
+    "quan"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Medium portrait of Quân standing near the desk clutching a leather folder to his chest, sweat on his forehead, eyes darting sideways."
+  },
+  "k_ledger": {
+   "chars": [
+    "quan"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Over-the-shoulder shot of Quân hurriedly flipping through a thick ledger at night with a small flashlight, the pages filled with blank lines and red ink marks without readable text."
+  },
+  "k_sau": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "kitchen"
+   ],
+   "p": "Warm medium portrait of Bà Sáu standing in the kitchen drying a teacup with a cloth, gentle tired smile, soft lamplight."
+  },
+  "k_argue": {
+   "chars": [
+    "hanh",
+    "lam"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Hạnh shouting angrily at Ông Lâm across the mahogany desk, one hand slammed on the desk, Ông Lâm seated and coldly unmoved, harsh lamp light, tense composition."
+  },
+  "k_teaprep": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "kitchen"
+   ],
+   "props": [
+    "lotus"
+   ],
+   "p": "Bà Sáu at the kitchen worktable at night pouring hot tea from a pot into a teacup on its saucer, steam rising, the wall clock behind her, quiet focused expression."
+  },
+  "k_tray": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "hall"
+   ],
+   "props": [
+    "lotus"
+   ],
+   "p": "Bà Sáu climbing the dark staircase carrying a tray with a single steaming teacup, the grandfather clock in the background, long shadows."
+  },
+  "k_lockdoor": {
+   "chars": [
+    "lam"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Ông Lâm seen from behind, turning the brass key in the lock of the study door from inside, a teacup waiting on the desk behind him, lamplight."
+  },
+  "k_knock": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Bà Sáu in the dark corridor knocking on the closed study door, worried face lit by the thin line of light under the door."
+  },
+  "k_break": {
+   "chars": [
+    "quan",
+    "hanh"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Quân slamming his shoulder into the wooden study door as it bursts open with splinters flying, Hạnh behind him with her hands over her mouth, dramatic motion, dim corridor light."
+  },
+  "k_hug": {
+   "chars": [
+    "sau",
+    "lam"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Bà Sáu kneeling beside the desk embracing the lifeless Ông Lâm, sobbing, her apron visible, lamp light, other figures blurred in the doorway."
+  },
+  "k_arrive": {
+   "chars": [
+    "minh"
+   ],
+   "loc": [
+    "villa"
+   ],
+   "p": "Thám tử Minh walking up the wet stone steps of the villa under a black umbrella at night, red and blue police lights reflecting on the wet ground, rain."
+  },
+  "k_flash": {
+   "chars": [
+    "minh"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Thám tử Minh crouching in the dark study, sweeping a flashlight beam across the floor near the desk, focused eyes, dust glowing in the beam."
+  },
+  "k_watch": {
+   "props": [
+    "watch"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Extreme close-up of the vintage gold wristwatch lying on the wooden floor, its glass cracked, flashlight beam on it. The watch shows the time 11:47 exactly: the SHORT hour hand points almost straight up, just a little to the left of the 12 o'clock mark; the LONG minute hand points to the left, slightly above the 9 o'clock mark (the 47-minute position). The dial has simple gold bar markers with no numerals."
+  },
+  "k_think": {
+   "chars": [
+    "minh"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Thám tử Minh standing by the rain-streaked study window, holding the cracked wristwatch in his gloved hand, deep in thought, lightning outside."
+  },
+  "k_cup": {
+   "props": [
+    "lotus",
+    "chrys"
+   ],
+   "loc": [
+    "study"
+   ],
+   "p": "Close-up of a white porcelain teacup painted with blue lotus flowers sitting on a saucer painted with yellow chrysanthemums, on the mahogany desk next to the green lamp, the patterns clearly mismatched."
+  },
+  "k_hanhint": {
+   "chars": [
+    "hanh",
+    "minh"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Hạnh sitting stiffly in a leather armchair being questioned, defiant eyes, Thám tử Minh seen from behind in the foreground, fireplace light."
+  },
+  "k_quanint": {
+   "chars": [
+    "quan",
+    "minh"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Quân sitting on the edge of an armchair trembling, hands clasped, sweat on his forehead, Thám tử Minh standing over him with notebook, warm lamplight."
+  },
+  "k_sauint": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Bà Sáu sitting quietly in a leather armchair, hands folded tightly in her lap, eyes red from crying, lamplight on her tired face."
+  },
+  "k_cabinet": {
+   "chars": [
+    "minh"
+   ],
+   "loc": [
+    "kitchen"
+   ],
+   "props": [
+    "lotus"
+   ],
+   "p": "Thám tử Minh opening the glass-front kitchen cabinet, rows of lotus-pattern teacups and saucers inside with one empty gap where a saucer is missing, flashlight in hand."
+  },
+  "k_apron": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Extreme close-up of the front pocket of Bà Sáu's white apron, damp with a faint light-brown tea stain spreading across the fabric."
+  },
+  "k_altar": {
+   "loc": [
+    "kitchen"
+   ],
+   "props": [
+    "photo"
+   ],
+   "p": "A tiny servant's room at night: a small wooden altar with the framed black-and-white photo of a young man, two incense sticks smoking, a candle, a narrow bed."
+  },
+  "k_crash": {
+   "p": "Black-and-white flashback: a rainy night road thirty years ago, a dark 1990s car with headlights glaring, a fallen bicycle on the wet asphalt, grainy old film look, high contrast."
+  },
+  "k_lineup": {
+   "chars": [
+    "hanh",
+    "quan",
+    "sau"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Hạnh, Quân and Bà Sáu standing side by side in the dim living room facing the camera like a police lineup, each with a different guarded expression, dramatic top light."
+  },
+  "k_gather": {
+   "chars": [
+    "minh",
+    "hanh",
+    "quan",
+    "sau"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Dawn light through the curtains: Thám tử Minh standing by the fireplace addressing Hạnh, Quân and Bà Sáu seated in armchairs, tense atmosphere, wide shot."
+  },
+  "k_explain": {
+   "chars": [
+    "minh"
+   ],
+   "loc": [
+    "living"
+   ],
+   "props": [
+    "lotus",
+    "chrys"
+   ],
+   "p": "Thám tử Minh holding up a lotus teacup and a chrysanthemum saucer, one in each hand, calm piercing gaze toward the camera, cold dawn light."
+  },
+  "k_swap": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "study"
+   ],
+   "props": [
+    "lotus"
+   ],
+   "p": "Black-and-white flashback: in the chaos after the door was broken, Bà Sáu at the desk secretly slipping a teacup into her apron pocket with one hand while placing a clean teacup on a saucer with the other, grainy film look."
+  },
+  "k_sauface": {
+   "chars": [
+    "sau"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Dramatic extreme close-up of Bà Sáu's face, a single tear running down her cheek, eyes calm and resigned, cold blue dawn light."
+  },
+  "k_confess": {
+   "chars": [
+    "sau",
+    "minh"
+   ],
+   "loc": [
+    "living"
+   ],
+   "p": "Bà Sáu speaking quietly with her head bowed, Thám tử Minh listening seriously beside her, soft dawn light, intimate somber mood."
+  },
+  "k_document": {
+   "p": "Close-up of an old yellowed sheet of paper with an official stamp and faded unreadable handwriting, lying in an open wooden drawer under lamplight, a vintage car key beside it."
+  },
+  "k_driver": {
+   "chars": [
+    "lam"
+   ],
+   "p": "Black-and-white flashback: a younger Ông Lâm aged about 38, same face and glasses, gripping the steering wheel of a 1990s car at night in the rain, terrified wide eyes, headlights glare, grainy film look."
+  },
+  "k_teamem": {
+   "chars": [
+    "sau",
+    "lam"
+   ],
+   "loc": [
+    "study"
+   ],
+   "props": [
+    "lotus"
+   ],
+   "p": "Warm melancholic memory: Bà Sáu gently placing a teacup on Ông Lâm's desk while he reads, unaware, soft golden lamplight, nostalgic hazy glow."
+  },
+  "k_ledout": {
+   "chars": [
+    "sau",
+    "minh"
+   ],
+   "loc": [
+    "villa"
+   ],
+   "p": "Bà Sáu being quietly led down the wet stone steps of the villa by Thám tử Minh at dawn, a police car waiting, mist among the pine trees, light rain."
+  },
+  "k_dawn": {
+   "loc": [
+    "study"
+   ],
+   "p": "The empty study at dawn, pale golden light through the window falling across the shelves of antique clocks, the broken door ajar, dust floating, peaceful and eerie."
+  }
+ },
+ "lines": [
+  {
+   "t": "Đêm đó, đúng mười hai giờ, chuông đồng hồ ở sảnh vừa dứt tiếng thứ mười hai, thì ông Lâm được phát hiện đã chết.",
+   "shots": [
+    [
+     "k_clock",
+     "shock"
+    ],
+    [
+     "k_bodyrev",
+     "shock"
+    ]
+   ],
+   "sfx": [
+    "chime"
+   ]
+  },
+  {
+   "t": "Trong một căn phòng khoá trái từ bên trong.",
+   "shots": [
+    [
+     "k_key",
+     "push"
+    ]
+   ]
+  },
+  {
+   "t": "Không ai vào được. Không ai ra được. Vậy hung thủ là ai?",
+   "shots": [
+    [
+     "k_window",
+     "push"
+    ],
+    [
+     "k_villa",
+     "title"
+    ]
+   ]
+  },
+  {
+   "t": "Ba tiếng trước đó, tại biệt thự nhà họ Lâm trên đồi thông Đà Lạt.",
+   "shots": [
+    [
+     "k_villa",
+     "pan"
+    ]
+   ],
+   "sfx": [
+    "thunder"
+   ]
+  },
+  {
+   "t": "Ông Lâm, sáu mươi tám tuổi, nhà sưu tầm đồng hồ cổ giàu có bậc nhất thành phố, gọi cả nhà lại bên bàn ăn.",
+   "shots": [
+    [
+     "k_lam",
+     "push"
+    ],
+    [
+     "k_dinner",
+     "pan"
+    ]
+   ]
+  },
+  {
+   "t": "Ông tuyên bố: sáng mai, ông sẽ sửa lại di chúc.",
+   "shots": [
+    [
+     "k_announce",
+     "punch"
+    ]
+   ],
+   "sfx": [
+    "hit"
+   ]
+  },
+  {
+   "t": "Cả bàn ăn lặng đi.",
+   "shots": [
+    [
+     "k_react",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Hạnh, con gái duy nhất, đang nợ một khoản tiền lớn. Nếu di chúc bị sửa, cô có thể mất tất cả.",
+   "shots": [
+    [
+     "k_hanh",
+     "suspect:1:HẠNH:Con gái duy nhất"
+    ],
+    [
+     "k_hanhdebt",
+     "push"
+    ]
+   ]
+  },
+  {
+   "t": "Quân, cậu thư ký trẻ, vừa bị ông chủ phát hiện có dấu hiệu gian lận sổ sách.",
+   "shots": [
+    [
+     "k_quan",
+     "suspect:2:QUÂN:Thư ký riêng"
+    ],
+    [
+     "k_ledger",
+     "pan"
+    ]
+   ]
+  },
+  {
+   "t": "Và bà Sáu, người quản gia hiền lành đã làm trong nhà suốt ba mươi năm.",
+   "shots": [
+    [
+     "k_sau",
+     "suspect:3:BÀ SÁU:Quản gia 30 năm"
+    ]
+   ]
+  },
+  {
+   "t": "Mười giờ tối, người làm vườn nghe thấy tiếng cãi vã lớn trong thư phòng. Đó là giọng của Hạnh.",
+   "shots": [
+    [
+     "k_argue",
+     "push"
+    ],
+    [
+     "k_argue",
+     "shock"
+    ]
+   ],
+   "sfx": [
+    "hit"
+   ]
+  },
+  {
+   "t": "Mười một giờ rưỡi, như mọi đêm, bà Sáu pha một ấm trà nóng, mang lên cho ông chủ.",
+   "shots": [
+    [
+     "k_teaprep",
+     "push"
+    ],
+    [
+     "k_tray",
+     "pan"
+    ]
+   ]
+  },
+  {
+   "t": "Ông Lâm nhận trà, rồi khoá cửa lại. Đó là thói quen của ông.",
+   "shots": [
+    [
+     "k_lockdoor",
+     "slow"
+    ]
+   ],
+   "sfx": [
+    "lock"
+   ]
+  },
+  {
+   "t": "Đúng nửa đêm, bà Sáu lên lấy khay như thường lệ. Gõ cửa. Không ai trả lời.",
+   "shots": [
+    [
+     "k_clock",
+     "push"
+    ],
+    [
+     "k_knock",
+     "slow"
+    ]
+   ],
+   "sfx": [
+    "knock"
+   ]
+  },
+  {
+   "t": "Quân và Hạnh phải phá cửa.",
+   "shots": [
+    [
+     "k_break",
+     "shock"
+    ]
+   ],
+   "sfx": [
+    "crash"
+   ]
+  },
+  {
+   "t": "Bên trong, ông Lâm gục trên bàn làm việc. Chìa khoá vẫn cắm trong ổ, phía bên trong. Cửa sổ chốt chặt.",
+   "shots": [
+    [
+     "k_bodyrev",
+     "push"
+    ],
+    [
+     "k_key",
+     "punch"
+    ],
+    [
+     "k_window",
+     "punch"
+    ]
+   ]
+  },
+  {
+   "t": "Bà Sáu chạy vào trước tiên, ôm lấy ông chủ, khóc nức nở.",
+   "shots": [
+    [
+     "k_hug",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Hai giờ sáng, thám tử Minh có mặt.",
+   "shots": [
+    [
+     "k_arrive",
+     "pan"
+    ]
+   ],
+   "sfx": [
+    "siren"
+   ]
+  },
+  {
+   "t": "Anh không nhìn cái xác trước. Anh nhìn những thứ xung quanh nó.",
+   "shots": [
+    [
+     "k_flash",
+     "push"
+    ]
+   ]
+  },
+  {
+   "t": "Manh mối thứ nhất: chiếc đồng hồ đeo tay của ông Lâm vỡ mặt, kim dừng ở mười một giờ bốn mươi bảy phút.",
+   "shots": [
+    [
+     "k_watch",
+     "clue:1:Đồng hồ dừng lúc 11:47"
+    ]
+   ],
+   "sfx": [
+    "tick"
+   ]
+  },
+  {
+   "t": "Nghĩa là ông đã chết trước nửa đêm, ngay sau khi uống trà.",
+   "shots": [
+    [
+     "k_think",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Manh mối thứ hai: tách trà trên bàn đã được kiểm tra. Hoàn toàn sạch, không có chút độc nào.",
+   "shots": [
+    [
+     "k_cup",
+     "clue:2:Tách trà sạch, không độc"
+    ]
+   ]
+  },
+  {
+   "t": "Nhưng thám tử Minh để ý một chi tiết nhỏ: chiếc tách vẽ hoa sen, còn chiếc đĩa lót bên dưới lại vẽ hoa cúc.",
+   "shots": [
+    [
+     "k_cup",
+     "push"
+    ],
+    [
+     "k_cup",
+     "glitch"
+    ]
+   ],
+   "sfx": [
+    "riser"
+   ]
+  },
+  {
+   "t": "Hạnh thừa nhận đã cãi nhau với cha. Nhưng lúc mười một giờ rưỡi, cô đang nói chuyện điện thoại trong phòng mình.",
+   "shots": [
+    [
+     "k_hanhint",
+     "push"
+    ],
+    [
+     "k_hanh",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Quân run rẩy. Cậu thú nhận chuyện sổ sách, nhưng cả buổi tối, cậu ở dưới gara sửa xe.",
+   "shots": [
+    [
+     "k_quanint",
+     "shake"
+    ],
+    [
+     "k_ledger",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Còn bà Sáu, bà ngồi lặng lẽ, hai tay đan vào nhau, mắt đỏ hoe.",
+   "shots": [
+    [
+     "k_sauint",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Thám tử Minh xuống bếp. Trong tủ, bộ tách hoa sen còn đủ cả, chỉ thiếu đúng một chiếc đĩa.",
+   "shots": [
+    [
+     "k_cabinet",
+     "push"
+    ],
+    [
+     "k_cabinet",
+     "clue:3:Thiếu đúng một chiếc đĩa"
+    ]
+   ]
+  },
+  {
+   "t": "Và trên tạp dề của bà Sáu, chiếc túi phía trước còn ướt, loang một vệt màu nâu nhạt của trà.",
+   "shots": [
+    [
+     "k_apron",
+     "clue:4:Túi tạp dề loang vết trà"
+    ]
+   ],
+   "sfx": [
+    "hit"
+   ]
+  },
+  {
+   "t": "Trong căn phòng nhỏ của bà, trên bàn thờ, là bức ảnh một chàng trai trẻ.",
+   "shots": [
+    [
+     "k_altar",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Ba mươi năm trước, con trai bà chết trong một vụ tai nạn xe đêm mưa. Người lái chiếc xe ấy chưa bao giờ bị tìm ra.",
+   "shots": [
+    [
+     "k_crash",
+     "flashback"
+    ],
+    [
+     "k_crash",
+     "flashpush"
+    ]
+   ],
+   "sfx": [
+    "thunder"
+   ]
+  },
+  {
+   "t": "Bạn đã đoán ra hung thủ chưa? Dừng lại một giây, và bình luận câu trả lời của bạn.",
+   "shots": [
+    [
+     "k_lineup",
+     "question"
+    ]
+   ],
+   "countdown": 3
+  },
+  {
+   "t": "Sáu giờ sáng, thám tử Minh gọi tất cả xuống phòng khách.",
+   "shots": [
+    [
+     "k_gather",
+     "pan"
+    ]
+   ]
+  },
+  {
+   "t": "Ông Lâm không chết trong căn phòng khoá trái. Ông đã bị đầu độc từ trước, bằng chính tách trà mang lên lúc mười một giờ rưỡi.",
+   "shots": [
+    [
+     "k_explain",
+     "push"
+    ],
+    [
+     "k_teaprep",
+     "flashback"
+    ]
+   ]
+  },
+  {
+   "t": "Khi cửa bị phá, người lao vào đầu tiên đã kịp tráo chiếc tách có độc, nhét vào túi tạp dề, và đặt một chiếc tách sạch lên bàn.",
+   "shots": [
+    [
+     "k_hug",
+     "flashback"
+    ],
+    [
+     "k_swap",
+     "flashpush"
+    ]
+   ]
+  },
+  {
+   "t": "Trong lúc vội, bà đã lấy nhầm chiếc đĩa.",
+   "shots": [
+    [
+     "k_cup",
+     "punch"
+    ]
+   ],
+   "sfx": [
+    "hit"
+   ]
+  },
+  {
+   "t": "Người đó, là bà Sáu.",
+   "shots": [
+    [
+     "k_sauface",
+     "reveal"
+    ]
+   ],
+   "sfx": [
+    "boom"
+   ],
+   "pauseBefore": 0.6
+  },
+  {
+   "t": "Bà không chối. Bà chỉ nói, đêm hôm trước, bà tìm thấy trong ngăn kéo của ông chủ một tờ giấy cũ: biên bản sửa chữa chiếc xe hơi, đúng ngày con trai bà mất.",
+   "shots": [
+    [
+     "k_confess",
+     "slow"
+    ],
+    [
+     "k_document",
+     "push"
+    ]
+   ]
+  },
+  {
+   "t": "Người lái chiếc xe năm ấy, chính là ông Lâm.",
+   "shots": [
+    [
+     "k_driver",
+     "flashshock"
+    ]
+   ],
+   "sfx": [
+    "boom"
+   ]
+  },
+  {
+   "t": "Ba mươi năm, bà đã pha trà cho kẻ giết con mình, mỗi đêm.",
+   "shots": [
+    [
+     "k_teamem",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "t": "Bình minh lên trên đồi thông. Trong thư phòng, những chiếc đồng hồ cổ vẫn tích tắc, như chưa từng có chuyện gì xảy ra.",
+   "shots": [
+    [
+     "k_ledout",
+     "pan"
+    ],
+    [
+     "k_dawn",
+     "slow"
+    ]
+   ],
+   "sfx": [
+    "tick"
+   ]
+  },
+  {
+   "t": "Theo dõi kênh để xem vụ án tiếp theo.",
+   "shots": [
+    [
+     "k_dawn",
+     "end"
+    ]
+   ]
+  }
+ ]
+}
