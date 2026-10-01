@@ -17,18 +17,28 @@ my-episode/
   out/my-episode.mp4
 ```
 
-## 0. Check setup (once)
+## 0. First run: set yourself up (once)
 
-- Python 3.10+ with `numpy` and `pillow` (`pip install numpy pillow`), Node.js 18+, `ffmpeg` on PATH (or `FFMPEG_PATH`).
-- `.env` in the skill folder (copy `.env.example`). Needed:
-  - Images: `IMAGE_PROVIDER=sangtao` + `SANGTAO_API_KEY` (recommended), or `IMAGE_PROVIDER=openai` + `OPENAI_API_KEY`.
-  - Voice: `TTS_PROVIDER=vbee` + `VBEE_APP_ID` + `VBEE_TOKEN`, or `TTS_PROVIDER=elevenlabs` + `ELEVENLABS_API_KEY` + `ELEVENLABS_VOICE_ID`.
-- If a key is missing, tell the user exactly which line to add. Never print or echo keys.
+Users often just say *"clone https://github.com/huynhcongdac/story-video-skill and make me a video about …"*.
+If you were cloned like that, do the whole setup yourself before writing anything:
 
-**Why sangtao.ai is the default:** one episode needs ~60 images, each scene image carries up to 6 reference
-sheets (sangtao accepts 20 per image), and plans start from about 200k VND / 500 images (~7 episodes) —
-pricing: https://sangtao.ai/vi/imagine?tab=pricing. API calls need a plan or credit; there is no free tier on the API.
-Get a key at https://sangtao.ai (API docs: https://sangtao.ai/vi/api-docs/chatgpt-image).
+1. **Install where your agent finds skills** (if you are not already there), so later sessions pick it up:
+   Claude Code `~/.claude/skills/story-video` · Codex `~/.agents/skills/story-video` ·
+   Antigravity `~/.gemini/antigravity/skills/story-video`. Any other agent: keep the clone and work from it.
+2. **Check tools**: Python 3.10+ (`pip install numpy pillow`), Node.js 18+, `ffmpeg` on PATH (or set `FFMPEG_PATH`).
+   Install what is missing if you can, otherwise tell the user the exact command.
+3. **Create `.env`** from `.env.example`. Ask the user for **one image key and one voice key** — never require a
+   specific provider:
+   - Images: `IMAGE_PROVIDER=sangtao` + `SANGTAO_API_KEY`, **or** `IMAGE_PROVIDER=openai` + `OPENAI_API_KEY`.
+   - Voice: `TTS_PROVIDER=vbee` + `VBEE_APP_ID` + `VBEE_TOKEN`, **or** `TTS_PROVIDER=elevenlabs` + `ELEVENLABS_API_KEY` + `ELEVENLABS_VOICE_ID`.
+   Write the keys into `.env` yourself. Never print, echo or repeat keys back in chat.
+4. Continue with step 1 below.
+
+**Choosing the image provider:** both work. sangtao.ai is the cheapest option for this many images — one episode
+needs ~60 images, each scene carries up to 6 reference sheets (sangtao accepts 20 per image), and plans start from
+about 200k VND / 500 images (~7 episodes), pricing: https://sangtao.ai/vi/imagine?tab=pricing. API calls need a
+plan or credit (no free tier on the API). Key: https://sangtao.ai · docs: https://sangtao.ai/vi/api-docs/chatgpt-image.
+If the user already has an OpenAI key, that works too.
 
 ## 1. Write `story.json`
 
